@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <HLCS_Checkout>
+            <version>0.1.0</version>
+        </HLCS_Checkout>
+    </modules>
+    <frontend>
+        <routers>
+            <checkout>
+                <args>
+                    <modules>
+                        <HLCS_Checkout before="Mage_Checkout">HLCS_Checkout</HLCS_Checkout>
+                    </modules>
+                </args>
+            </checkout>
+        </routers>
+    </frontend>
+</config>

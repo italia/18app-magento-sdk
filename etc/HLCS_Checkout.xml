@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+   <HLCS_Checkout>
+    <active>true</active>
+    <codePool>local</codePool>
+  </HLCS_Checkout>
+ </modules>
+</config>
